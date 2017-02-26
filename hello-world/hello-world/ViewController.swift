@@ -6,6 +6,8 @@
 //  Copyright © 2017 Sheena Takkenberg. All rights reserved.
 //
 
+// This is a comment
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -13,6 +15,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        print("Hello World!")
     }
 
     override func didReceiveMemoryWarning() {
