@@ -12,6 +12,7 @@
 		4563C7CE1E631839001DDA43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4563C7CC1E631839001DDA43 /* Main.storyboard */; };
 		4563C7D01E631839001DDA43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4563C7CF1E631839001DDA43 /* Assets.xcassets */; };
 		4563C7D31E631839001DDA43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4563C7D11E631839001DDA43 /* LaunchScreen.storyboard */; };
+		45B1B1131E764D2700DC41C2 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 45B1B1121E764D2700DC41C2 /* cat.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4563C7CF1E631839001DDA43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4563C7D21E631839001DDA43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4563C7D41E631839001DDA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B1B1121E764D2700DC41C2 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				4563C7C81E631839001DDA43 /* AppDelegate.swift */,
 				4563C7CA1E631839001DDA43 /* ViewController.swift */,
 				4563C7CC1E631839001DDA43 /* Main.storyboard */,
+				45B1B1121E764D2700DC41C2 /* cat.jpeg */,
 				4563C7CF1E631839001DDA43 /* Assets.xcassets */,
 				4563C7D11E631839001DDA43 /* LaunchScreen.storyboard */,
 				4563C7D41E631839001DDA43 /* Info.plist */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B1B1131E764D2700DC41C2 /* cat.jpeg in Resources */,
 				4563C7D31E631839001DDA43 /* LaunchScreen.storyboard in Resources */,
 				4563C7D01E631839001DDA43 /* Assets.xcassets in Resources */,
 				4563C7CE1E631839001DDA43 /* Main.storyboard in Resources */,
@@ -297,6 +301,7 @@
 				4563C7D91E631839001DDA43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
