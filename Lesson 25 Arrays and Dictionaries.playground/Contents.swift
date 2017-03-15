@@ -36,3 +36,35 @@ challArray.remove(at: 1)
 challArray.append(challArray[0] * challArray[1])
 
 print(challArray)
+
+// mix arrays
+var mixArray = ["Sheena", 34, true] as [Any]
+
+var stringArray = [String]() //create an array which will contain some strings. You'd have to use append to add a value to it
+
+// DICTIONARIES
+
+var dictionary = ["computer": "something to play the Witcher 3 on", "coffee": "A good kick when you're tired"]
+
+print(dictionary["computer"]!)
+
+print(dictionary.count)
+
+// Appending items to the dictionary
+dictionary["pen"] = "Old fashioned writing implement"
+
+//removing an item from the dictionary
+dictionary.removeValue(forKey: "computer")
+
+print(dictionary)
+
+// setting an empty dictionary
+var gameCharacters = [String: Double]() // setting the types for the key value pairs. In this case the key is a String, the value is a Double
+
+gameCharacters["ghost"] = 8.7
+
+// CHALLENGE
+// MENU DICTIONARY 3 ITEMS. PIZZA 10.99, ICECREAM 4.99, SALAD 7.99
+// TAKE 2 ITEMS & PRINT "THE TOTAL COST OF MY MEAL IS: "
+
+
