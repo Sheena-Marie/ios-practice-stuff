@@ -17,3 +17,22 @@ array.count
 
 // adding items to the array
 array.append(1) // This adds 1 to the end of the array
+
+//removing particular elements from the array.
+array.remove(at: 1)
+
+//sorting the array
+array.sort()
+
+// viewing the contents of the array
+print(array)
+
+// CHALLENGE
+// CREATE ARRAY 3.87, 7.1, 8.9. REMOVE 7.1, APPEND TO THE END OF HTE ARRAY THE PRODUCT OF HTE TWO REMAINING ELEMNTS. 3.87 * 8.9
+
+var challArray = [3.87, 7.1, 8.9]
+challArray.remove(at: 1)
+
+challArray.append(challArray[0] * challArray[1])
+
+print(challArray)
