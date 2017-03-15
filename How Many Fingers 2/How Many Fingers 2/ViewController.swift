@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // The field where users enter their guess
     @IBOutlet var enterNumber: UITextField!
     
+    // What happens when the "Guess button is pressed"
     @IBAction func guessButton(_ sender: Any) {
+        
+        // Randomising the number between 0 and 5
         let diceRoll = String(arc4random_uniform(6))
         
+        // If they guess the random number, they get it right. If they don't, they get it wrong.
         if enterNumber.text == diceRoll {
             answerText.text = "You're Right, the answer was \(diceRoll)"
         } else {
@@ -22,6 +27,7 @@ class ViewController: UIViewController {
         }
     }
     
+    // Label at the bottom of the app that show a message on whether they've guessed correctly or not.
     @IBOutlet var answerText: UILabel!
 
     override func viewDidLoad() {
