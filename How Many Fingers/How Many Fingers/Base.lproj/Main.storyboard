@@ -48,7 +48,7 @@
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
                                 <state key="normal" title="GUESS"/>
                                 <connections>
-                                    <action selector="guessButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pvm-LP-bO2"/>
+                                    <action selector="guessButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TvV-uL-WQk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="answer placeholder here so let's put in a lot of text for it" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYt-17-AgN">
@@ -63,8 +63,9 @@
                     </view>
                     <connections>
                         <outlet property="answer" destination="rYt-17-AgN" id="3hV-oO-k0X"/>
+                        <outlet property="answerSection" destination="rYt-17-AgN" id="CUl-lt-zts"/>
                         <outlet property="guessButton" destination="PMb-L6-tHi" id="FgM-Lm-kqW"/>
-                        <outlet property="userEntry" destination="ibo-Bf-Qml" id="IBC-UC-2jS"/>
+                        <outlet property="userEntry" destination="ibo-Bf-Qml" id="AKJ-c5-W7W"/>
                         <outlet property="userFingers" destination="ibo-Bf-Qml" id="o13-9i-wsc"/>
                     </connections>
                 </viewController>

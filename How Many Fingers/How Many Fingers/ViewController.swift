@@ -11,28 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var userEntry: UITextField!
-    @IBOutlet var answer: UILabel!
     
-    
-    
-    @IBAction func guessButton(_ sender: AnyObject) {
+    @IBAction func guessButton(_ sender: Any) {
+        let randomNumber = String(arc4random_uniform(6))
         
-        let randomNumber = arc4random_uniform(6)
-        
-        var userAnswer = Int()
-        
-        userAnswer = Int(userEntry.text!)!
-        
-        if userAnswer >= 6 {
-            answer.text = "Please choose a number between 0 and 5"
-        } else if userAnswer == Int(randomNumber) {
-            answer.text = "Yay! You guessed correct! It was \(randomNumber)"
-        } else {
-            answer.text = "Sorry, the correct answer was \(randomNumber)"
-        }
-        
+        print(randomNumber)
     }
     
+    @IBOutlet var answerSection: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
