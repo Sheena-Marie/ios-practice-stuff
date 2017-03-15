@@ -67,4 +67,11 @@ gameCharacters["ghost"] = 8.7
 // MENU DICTIONARY 3 ITEMS. PIZZA 10.99, ICECREAM 4.99, SALAD 7.99
 // TAKE 2 ITEMS & PRINT "THE TOTAL COST OF MY MEAL IS: "
 
+var menu = [String: Double]()
+
+menu["Pizza"] = 10.99
+menu["Icecream"] = 4.99
+menu["Salad"] = 7.99
+
+print("The total cost of my meal is: $\(menu["Pizza"]! * menu["Icecream"]!)")
 
