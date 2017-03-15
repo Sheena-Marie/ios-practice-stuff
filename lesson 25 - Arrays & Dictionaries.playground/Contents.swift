@@ -47,3 +47,51 @@ print(array)
 // CHALLENGE
 // CREATE AN ARRAY WITH 3.87, 7.1, 8.9. REMOVE 7.1. APPEND TO THE END OF THE ARRAY THE PRODUCT OF THE TWO REMAINING ELEMENTS. 3.87 * 8.9.
 
+var newArray = [3.87, 7.1, 8.9]
+
+newArray.remove(at: 1)
+
+print(newArray)
+
+newArray.append(newArray[0] * newArray[1])
+
+print(newArray)
+
+
+//DICTIONARY
+
+// creating the dictionary
+var dictionary = ["computer": "Something to play Witcher 3 on", "coffee": "An okay drink. Good to give you a kick in the morning"]
+
+// printing one definition to the screen
+print(dictionary["computer"]!)
+
+// How many items are in the dictionary?
+print(dictionary.count)
+
+// adding items to the dictionary
+dictionary["pen"] = "Old fashioned writing implement"
+
+// remvoing an item from the dictionary
+dictionary.removeValue(forKey: "computer")
+
+// printing the entire dictionary to the console.
+print(dictionary)
+
+// A dictionary that we're going to append later. String means that the character name is going to have a string value. Double is for character strength
+var gameCharacters = [String: Double]()
+
+// adding a character into the dictionary
+gameCharacters["ghost"] = 8.7
+
+// CHALLENGE
+// CREATE A MENU DICTIONARY. 3 ITEMS: PIZZA 10.99, ICECREAM 4.99, SALAD 7.99. 
+// TAKE TWO ITEMS & PRINT THE TOTAL COST OF MY MEAL IS: 
+
+var menu = [String: Double]()
+menu["Pizza"] = 10.99
+menu["Icecream"] = 4.99
+menu["Salad"] = 7.99
+
+
+print("The cost of my meal is: $\(menu["Pizza"]! + menu["Icecream"]!)")
