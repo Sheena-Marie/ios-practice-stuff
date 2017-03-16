@@ -25,9 +25,9 @@ class ViewController: UIViewController {
         
         
         if numberGuess.text == randomNumber {
-            guessResults.text = "Congrats \(userName), you guessed right!"
+            guessResults.text = "Congrat, you guessed right!"
         } else {
-            guessResults.text = "Sorry \(userName), that wasn't the right answer. The number was \(randomNumber)"
+            guessResults.text = "Sorry, that wasn't the right answer. The number was \(randomNumber)"
         }
         
     }
