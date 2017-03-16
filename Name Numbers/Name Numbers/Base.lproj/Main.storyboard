@@ -60,6 +60,9 @@
                                 <rect key="frame" x="225" y="253" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Guess"/>
+                                <connections>
+                                    <action selector="guessButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xjx-sa-NQh"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer goes here. Users guess the number, number is randomised based on the number of letters in their first name." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfa-r5-Pvg">
                                 <rect key="frame" x="104" y="343" width="255" height="153"/>
@@ -71,6 +74,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="guessResults" destination="gfa-r5-Pvg" id="Fje-Hd-yO6"/>
+                        <outlet property="numberGuess" destination="Hp6-rO-Hlf" id="gwj-pv-nR4"/>
+                        <outlet property="userName" destination="ZGb-ii-Rjt" id="4Kf-qB-jt2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
