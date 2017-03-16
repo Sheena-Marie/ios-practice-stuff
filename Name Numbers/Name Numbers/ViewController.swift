@@ -24,10 +24,11 @@ class ViewController: UIViewController {
         let randomNumber = String(arc4random_uniform(10))
         
         
+        // Will eventually need to get the name to pop up as well. Not sure why that's not working atm
         if numberGuess.text == randomNumber {
-            guessResults.text = "Congrat, you guessed right!"
+            guessResults.text = "Congrats \(userName.text!), you guessed right!"
         } else {
-            guessResults.text = "Sorry, that wasn't the right answer. The number was \(randomNumber)"
+            guessResults.text = "Sorry \(userName.text!), that wasn't the right answer. The number was \(randomNumber)"
         }
         
     }
