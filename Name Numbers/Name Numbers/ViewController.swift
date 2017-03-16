@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         let randomNumber = String(arc4random_uniform(10))
         
         
-        // Will eventually need to get the name to pop up as well. Not sure why that's not working atm
+        // If the user guesses the number correctly, they'll get a congrats message with their name. If they get it wrong, they'll get a sorry message with their name and the correct number.
         if numberGuess.text == randomNumber {
             guessResults.text = "Congrats \(userName.text!), you guessed right!"
         } else {
